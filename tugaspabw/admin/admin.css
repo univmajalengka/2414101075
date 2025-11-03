@@ -1,0 +1,55 @@
+/* admin/admin.css */
+body {
+  background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #343a40;
+  color: white;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk tabel di index admin */
+.table-admin th {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+.table-admin img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.table-admin .btn-group {
+  white-space: nowrap;
+}
+
+/* Style untuk form */
+.form-wrapper {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+/* Style khusus login */
+.login-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-card {
+  width: 100%;
+  max-width: 400px;
+}
