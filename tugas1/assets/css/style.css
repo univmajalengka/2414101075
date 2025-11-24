@@ -1,0 +1,5 @@
+body { font-family: "Segoe UI", Roboto, Arial, sans-serif; }
+.header-banner img { border-bottom: 6px solid #ff9800; }
+.card img { object-fit: cover; }
+.menu-feature { transition: .15s; }
+.menu-feature:hover { transform: translateY(-4px); }
